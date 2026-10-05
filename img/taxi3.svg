@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Taxi en entorno urbano</title>
+  <desc id="desc">Taxi amarillo circulando por una avenida rodeada de edificios modernos.</desc>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#c8e2eb"/><stop offset="1" stop-color="#f5f4e9"/></linearGradient><linearGradient id="car" x2="0" y2="1"><stop stop-color="#ffdd5a"/><stop offset="1" stop-color="#eead16"/></linearGradient></defs>
+  <rect width="800" height="500" fill="url(#sky)"/><circle cx="105" cy="84" r="39" fill="#fff" opacity=".75"/>
+  <path d="M0 355V160l101-75 104 75v195zm216 0V117l113-66 114 66v238zm247 0V170l91-57 91 57v185zm203 0V126l68-39 66 39v229z" fill="#7899a7"/><path d="M0 355V160l101-75v270zm216 0V117l113-66v304zm247 0V170l91-57v242zm203 0V126l68-39v268z" fill="#56798a" opacity=".55"/>
+  <g fill="#d9edf0"><path d="M31 182h22v29H31zm48-38h22v29H79zm48 38h22v29h-22zM251 139h24v32h-24zm50-42h24v32h-24zm50 42h24v32h-24zm-100 57h24v32h-24zm50 0h24v32h-24zm50 0h24v32h-24zM490 190h21v27h-21zm44-31h21v27h-21zm44 31h21v27h-21zm130-28h18v25h-18zm38-23h18v25h-18z"/></g>
+  <path d="M0 354h800v146H0z" fill="#c9d9d8"/><path d="m0 430 323-76h153l324 76v70H0z" fill="#273c4e"/><path d="m44 463 99-23m116-28 99-23m106 0 99 23m116 28 99 23" stroke="#f6d56b" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="403" cy="392" rx="212" ry="24" fill="#132536" opacity=".22"/>
+  <g transform="translate(214 232)"><path d="m26 87 31-57q12-21 38-23l167-7q28-1 47 19l61 68 41 13q20 6 21 27l1 31H9v-39q0-23 17-32z" fill="url(#car)" stroke="#d39413" stroke-width="4"/><path d="m111 19 155-7q16 0 30 14l44 52H83z" fill="#9fcbd9" stroke="#fff0b4" stroke-width="6"/><path d="m190 16 2 62m75-65 27 65" stroke="#4c6e81" stroke-width="5"/><path d="M11 104h420v38H11z" fill="#f1b31b"/><rect x="175" y="113" width="87" height="23" rx="4" fill="#fffdf4"/><text x="219" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="14" fill="#17324d">TAXI</text><circle cx="112" cy="169" r="34" fill="#172638"/><circle cx="112" cy="169" r="16" fill="#c5d3da"/><circle cx="351" cy="169" r="34" fill="#172638"/><circle cx="351" cy="169" r="16" fill="#c5d3da"/></g>
+</svg>

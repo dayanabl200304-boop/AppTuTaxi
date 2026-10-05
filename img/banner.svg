@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">Taxi amarillo en la ciudad</title>
+  <desc id="desc">Taxi urbano amarillo delante de edificios al anochecer.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#17385b"/><stop offset="1" stop-color="#4d7894"/></linearGradient>
+    <linearGradient id="road" x2="0" y2="1"><stop stop-color="#263a4c"/><stop offset="1" stop-color="#101f31"/></linearGradient>
+    <linearGradient id="body" x2="0" y2="1"><stop stop-color="#ffd84f"/><stop offset="1" stop-color="#f0ad18"/></linearGradient>
+  </defs>
+  <rect width="1200" height="640" fill="url(#sky)"/>
+  <circle cx="969" cy="115" r="44" fill="#ffd56b" opacity=".9"/>
+  <path d="M0 320 90 268l80 45 120-111 111 83 116-129 111 142 117-90 123 102 101-88 131 99v184H0Z" fill="#294761"/>
+  <g fill="#19344e">
+    <path d="M0 244h126v222H0zM132 199h118v267H132zM259 275h96v191h-96zM365 220h145v246H365zM523 251h101v215H523zM636 188h133v278H636zM780 260h115v206H780zM907 215h136v251H907zM1054 250h146v216h-146z"/>
+  </g>
+  <g fill="#f6cc72" opacity=".72">
+    <path d="M23 272h18v28H23zm43 0h18v28H66zm43 0h18v28h-18zM155 229h18v28h-18zm43 0h18v28h-18zM390 250h19v28h-19zm47 0h19v28h-19zm47 0h19v28h-19zM661 220h19v28h-19zm47 0h19v28h-19zm-47 54h19v28h-19zm47 0h19v28h-19zM931 246h20v28h-20zm49 0h20v28h-20zm49 0h20v28h-20zM1080 278h20v28h-20zm49 0h20v28h-20z"/>
+  </g>
+  <path d="M0 425h1200v215H0z" fill="url(#road)"/>
+  <path d="M0 470c194-35 372-28 546 3s376 33 654-13v180H0z" fill="#1c2c3d"/>
+  <path d="M53 565h171m142 0h171m142 0h171m142 0h171" stroke="#f8d36a" stroke-width="8" stroke-linecap="round" opacity=".75"/>
+  <ellipse cx="615" cy="510" rx="324" ry="38" fill="#0b1724" opacity=".45"/>
+  <g transform="translate(300 314)">
+    <path d="M42 136 77 69q13-26 45-29l179-15q38-3 64 26l58 68 51 17q25 8 27 36l2 40H29v-49q0-20 13-27z" fill="url(#body)" stroke="#d59211" stroke-width="5"/>
+    <path d="m131 61 167-14q21-2 36 16l34 48H103z" fill="#b8d9e6" stroke="#f9e8b2" stroke-width="7"/>
+    <path d="m222 54-3 57m68-63 22 63" stroke="#45677c" stroke-width="7"/>
+    <path d="M27 150h459v41H27z" fill="#f6bb25"/>
+    <rect x="214" y="133" width="96" height="26" rx="5" fill="#f8f4e8"/>
+    <text x="262" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#17324d">TAXI</text>
+    <path d="M195 24q5-17 22-17h57q16 0 20 17l3 11-106 9z" fill="#f6c637" stroke="#d59211" stroke-width="4"/>
+    <rect x="220" y="12" width="45" height="18" rx="5" fill="#fff0a8"/>
+    <circle cx="115" cy="193" r="37" fill="#172536"/><circle cx="115" cy="193" r="17" fill="#c4d0d7"/>
+    <circle cx="394" cy="193" r="37" fill="#172536"/><circle cx="394" cy="193" r="17" fill="#c4d0d7"/>
+    <path d="M32 164H9v16h25m442-15h23v16h-24" fill="#fff0ac"/>
+  </g>
+</svg>

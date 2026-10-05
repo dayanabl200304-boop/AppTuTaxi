@@ -1,0 +1,912 @@
+/* =====================================================
+   AppTuTaxi
+   Hoja de estilos principal
+   Evidencia GA8-220501096-AA1-EV02
+===================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    background:#f4f7fa;
+    color:#333;
+    line-height:1.6;
+}
+
+/*=========================
+ENCABEZADO
+==========================*/
+
+header{
+    background:#FFD400;
+    color:#111;
+    width:100%;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 2px 10px rgba(0,0,0,.2);
+}
+
+.contenedor{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:#111;
+}
+
+.logo span{
+    color:#0066cc;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#111;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#0066cc;
+}
+
+/*=========================
+BANNER
+==========================*/
+
+.banner{
+    height:650px;
+    background-image:url("../img/banner.svg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+
+.banner::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.55);
+}
+
+.banner-contenido{
+    position:relative;
+    text-align:center;
+    color:white;
+    width:80%;
+}
+
+.banner h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.banner p{
+    font-size:22px;
+    margin-bottom:35px;
+}
+
+.boton{
+    display:inline-block;
+    padding:15px 35px;
+    background:#FFD400;
+    color:#111;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    border-radius:40px;
+    transition:.4s;
+}
+
+.boton:hover{
+    background:#0066cc;
+    color:white;
+}
+
+/*=========================
+SECCIONES
+==========================*/
+
+section{
+    padding:80px 0;
+}
+
+.titulo{
+    text-align:center;
+    font-size:38px;
+    color:#0066cc;
+    margin-bottom:50px;
+}
+
+.subtitulo{
+    text-align:center;
+    font-size:18px;
+    color:#666;
+    margin-bottom:40px;
+}
+
+/*=========================
+TARJETAS
+==========================*/
+
+.tarjetas{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.tarjeta{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.4s;
+}
+
+.tarjeta:hover{
+    transform:translateY(-10px);
+}
+
+.tarjeta img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.tarjeta h3{
+    text-align:center;
+    padding:20px;
+    color:#0066cc;
+}
+
+.tarjeta p{
+    padding:0 20px 25px;
+    text-align:justify;
+}
+
+/*=========================
+SERVICIOS
+==========================*/
+
+.servicios{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.servicio{
+    background:white;
+    border-radius:15px;
+    padding:35px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.servicio:hover{
+    background:#FFD400;
+}
+
+.servicio i{
+    font-size:50px;
+    color:#0066cc;
+    margin-bottom:20px;
+}
+
+.servicio h3{
+    margin-bottom:20px;
+}
+
+.servicio p{
+    font-size:16px;
+}
+/*====================================================
+COBERTURAS
+====================================================*/
+
+.coberturas{
+    background:#eef5fb;
+}
+
+.cobertura-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.ciudad{
+    background:#fff;
+    border-left:6px solid #FFD400;
+    border-radius:12px;
+    padding:25px;
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.ciudad:hover{
+    transform:translateY(-6px);
+    border-left-color:#0066cc;
+}
+
+.ciudad h3{
+    color:#0066cc;
+    margin-bottom:15px;
+}
+
+.ciudad p{
+    color:#555;
+}
+
+/*====================================================
+ESTADÍSTICAS
+====================================================*/
+
+.estadisticas{
+    background:#0066cc;
+    color:white;
+}
+
+.estadisticas-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+    text-align:center;
+}
+
+.numero{
+    font-size:48px;
+    font-weight:bold;
+    color:#FFD400;
+    margin-bottom:10px;
+}
+
+.texto-numero{
+    font-size:18px;
+}
+
+/*====================================================
+EXPERIENCIAS
+====================================================*/
+
+.testimonios{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.testimonio{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 6px 15px rgba(0,0,0,.12);
+}
+
+.testimonio img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+.testimonio h4{
+    color:#0066cc;
+    margin-bottom:12px;
+}
+
+.testimonio p{
+    text-align:justify;
+    color:#555;
+}
+
+/*====================================================
+GALERÍA
+====================================================*/
+
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.galeria img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:12px;
+    transition:.4s;
+    cursor:pointer;
+}
+
+.galeria img:hover{
+    transform:scale(1.05);
+}
+
+/*====================================================
+FORMULARIO
+====================================================*/
+
+.formulario{
+    width:100%;
+    max-width:700px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 6px 20px rgba(0,0,0,.15);
+}
+
+.formulario label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:bold;
+    color:#333;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario select{
+    width:100%;
+    padding:15px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    outline:none;
+    transition:.3s;
+    font-size:16px;
+}
+
+.formulario input:focus,
+.formulario textarea:focus,
+.formulario select:focus{
+    border-color:#0066cc;
+}
+
+.formulario textarea{
+    resize:vertical;
+    min-height:150px;
+}
+
+.formulario button{
+    background:#FFD400;
+    color:#111;
+    border:none;
+    padding:15px 35px;
+    border-radius:40px;
+    font-size:17px;
+    cursor:pointer;
+    transition:.3s;
+    font-weight:bold;
+}
+
+.formulario button:hover{
+    background:#0066cc;
+    color:white;
+}
+
+/*====================================================
+TABLAS
+====================================================*/
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:30px;
+}
+
+table th{
+    background:#0066cc;
+    color:white;
+    padding:15px;
+}
+
+table td{
+    padding:15px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+table tr:nth-child(even){
+    background:#f5f5f5;
+}
+
+/*====================================================
+BOTONES SECUNDARIOS
+====================================================*/
+
+.btn-secundario{
+    display:inline-block;
+    padding:12px 25px;
+    border:2px solid #0066cc;
+    color:#0066cc;
+    border-radius:30px;
+    text-decoration:none;
+    transition:.3s;
+    font-weight:bold;
+}
+
+.btn-secundario:hover{
+    background:#0066cc;
+    color:white;
+}
+
+/*====================================================
+FOOTER
+====================================================*/
+
+footer{
+    background:#111;
+    color:white;
+    padding:50px 0 25px;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+footer h3{
+    color:#FFD400;
+    margin-bottom:20px;
+}
+
+footer p,
+footer li{
+    color:#ccc;
+    margin-bottom:10px;
+}
+
+footer ul{
+    list-style:none;
+}
+
+footer a{
+    text-decoration:none;
+    color:#ccc;
+    transition:.3s;
+}
+
+footer a:hover{
+    color:#FFD400;
+}
+
+.copy{
+    text-align:center;
+    margin-top:40px;
+    border-top:1px solid #444;
+    padding-top:20px;
+    color:#aaa;
+}
+/*====================================================
+ANIMACIONES
+====================================================*/
+
+@keyframes aparecer{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes izquierda{
+    from{
+        opacity:0;
+        transform:translateX(-50px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+@keyframes derecha{
+    from{
+        opacity:0;
+        transform:translateX(50px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+@keyframes zoom{
+    from{
+        transform:scale(.8);
+        opacity:0;
+    }
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
+}
+
+.fade-in{
+    animation:aparecer 1s ease;
+}
+
+.left{
+    animation:izquierda 1s ease;
+}
+
+.right{
+    animation:derecha 1s ease;
+}
+
+.zoom{
+    animation:zoom .8s ease;
+}
+
+/*====================================================
+EFECTOS GENERALES
+====================================================*/
+
+img{
+    max-width:100%;
+}
+
+a{
+    transition:.3s;
+}
+
+button{
+    transition:.3s;
+}
+
+input,
+textarea,
+select{
+    font-family:inherit;
+}
+
+hr{
+    border:none;
+    height:1px;
+    background:#ddd;
+    margin:40px 0;
+}
+
+.sombra{
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+}
+
+.centrar{
+    text-align:center;
+}
+
+.mt-1{margin-top:10px;}
+.mt-2{margin-top:20px;}
+.mt-3{margin-top:30px;}
+.mt-4{margin-top:40px;}
+.mt-5{margin-top:50px;}
+
+.mb-1{margin-bottom:10px;}
+.mb-2{margin-bottom:20px;}
+.mb-3{margin-bottom:30px;}
+.mb-4{margin-bottom:40px;}
+.mb-5{margin-bottom:50px;}
+
+/*====================================================
+BOTÓN WHATSAPP
+====================================================*/
+
+.whatsapp{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    background:#25D366;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:32px;
+    text-decoration:none;
+    box-shadow:0 6px 18px rgba(0,0,0,.35);
+    z-index:999;
+}
+
+.whatsapp:hover{
+    transform:scale(1.1);
+}
+
+/*====================================================
+BOTÓN SUBIR
+====================================================*/
+
+.subir{
+    position:fixed;
+    left:25px;
+    bottom:25px;
+    width:55px;
+    height:55px;
+    background:#0066cc;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    font-size:24px;
+    z-index:999;
+}
+
+.subir:hover{
+    background:#FFD400;
+    color:#111;
+}
+
+/*====================================================
+RESPONSIVE TABLET
+====================================================*/
+
+@media(max-width:992px){
+
+.banner{
+    height:550px;
+}
+
+.banner h1{
+    font-size:42px;
+}
+
+.banner p{
+    font-size:20px;
+}
+
+.navbar{
+    flex-direction:column;
+}
+
+nav ul{
+    margin-top:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.titulo{
+    font-size:32px;
+}
+
+}
+
+/*====================================================
+RESPONSIVE MÓVIL
+====================================================*/
+
+@media(max-width:768px){
+
+.banner{
+    height:500px;
+}
+
+.banner h1{
+    font-size:34px;
+}
+
+.banner p{
+    font-size:18px;
+}
+
+.logo{
+    font-size:28px;
+}
+
+nav ul{
+    flex-direction:column;
+    gap:15px;
+}
+
+.tarjetas,
+.servicios,
+.cobertura-grid,
+.estadisticas-grid,
+.testimonios,
+.footer-grid,
+.galeria{
+    grid-template-columns:1fr;
+}
+
+.formulario{
+    padding:25px;
+}
+
+.numero{
+    font-size:38px;
+}
+
+}
+
+/*====================================================
+PANTALLAS PEQUEÑAS
+====================================================*/
+
+@media(max-width:480px){
+
+.banner{
+    height:420px;
+}
+
+.banner h1{
+    font-size:28px;
+}
+
+.banner p{
+    font-size:16px;
+}
+
+.boton{
+    padding:12px 25px;
+    font-size:16px;
+}
+
+.titulo{
+    font-size:28px;
+}
+
+section{
+    padding:60px 0;
+}
+
+.whatsapp{
+    width:55px;
+    height:55px;
+}
+
+.subir{
+    width:50px;
+    height:50px;
+}
+
+}
+
+/*====================================================
+FIN DEL ARCHIVO
+====================================================*/
+/*=========================================
+PÁGINAS SECUNDARIAS
+=========================================*/
+
+.hero-secundario{
+    background:linear-gradient(135deg,#ffc107,#ff9800);
+    color:#fff;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero-secundario h1{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.hero-secundario p{
+    max-width:800px;
+    margin:auto;
+    font-size:18px;
+}
+
+.grid-3{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#ff9800;
+    margin-bottom:15px;
+}
+
+.card h4{
+    margin-top:15px;
+    color:#444;
+}
+
+.card p{
+    line-height:1.8;
+}
+
+.cta{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.cta h2{
+    font-size:34px;
+    margin-bottom:20px;
+}
+
+.cta p{
+    max-width:700px;
+    margin:0 auto 30px;
+}
+
+.boton{
+    display:inline-block;
+    background:#ffc107;
+    color:#222;
+    padding:15px 35px;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.boton:hover{
+    background:#ff9800;
+    color:white;
+}
+
+nav ul li a.activo{
+    color:#ffc107;
+    font-weight:bold;
+    border-bottom:3px solid #ffc107;
+    padding-bottom:5px;
+}
+
+iframe{
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+
+@media(max-width:768px){
+
+.hero-secundario h1{
+    font-size:30px;
+}
+
+.cta h2{
+    font-size:26px;
+}
+
+}

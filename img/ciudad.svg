@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Transporte urbano y cobertura</title>
+  <desc id="desc">Red de calles de una ciudad conectada por el servicio de taxis.</desc>
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#d8ebef"/><stop offset="1" stop-color="#f3f6f0"/></linearGradient></defs>
+  <rect width="800" height="500" fill="url(#bg)"/><circle cx="675" cy="83" r="39" fill="#fff" opacity=".8"/>
+  <path d="M0 318 88 268l92 50 95-104 111 104 101-82 105 82 102-121 106 121v182H0z" fill="#b2cbd1"/>
+  <g fill="#54758a"><path d="M34 266h91v106H34zm105-36h107v142H139zm251-16h98v158h-98zm215 24h93v134h-93zm122-41h58v175h-58z"/></g>
+  <g fill="#e5f1ed"><path d="M50 283h18v23H50zm39 0h18v23H89zm-39 42h18v23H50zm39 0h18v23H89zm33-75h19v25h-19zm42 0h19v25h-19zm-42 45h19v25h-19zm42 0h19v25h-19zm211-26h18v24h-18zm40 0h18v24h-18zm-40 44h18v24h-18zm40 0h18v24h-18zm178-15h18v24h-18zm39 0h18v24h-18zm105-47h18v24h-18z"/></g>
+  <path d="M0 369q130-36 256 2t271 0q134-40 273-4v133H0z" fill="#c4dbdc"/>
+  <path d="M-20 457q169-68 341 0t351 0q77-31 150-32" fill="none" stroke="#263d51" stroke-width="66"/><path d="M-20 457q169-68 341 0t351 0q77-31 150-32" fill="none" stroke="#f3f5ee" stroke-width="4" stroke-dasharray="16 19"/>
+  <path d="M96 411q94-81 191-8t192 7q77-49 165-92" fill="none" stroke="#f2bf2f" stroke-width="7" stroke-linecap="round" stroke-dasharray="2 0"/><circle cx="96" cy="411" r="12" fill="#fff" stroke="#edb61d" stroke-width="6"/><circle cx="479" cy="410" r="12" fill="#fff" stroke="#edb61d" stroke-width="6"/><circle cx="644" cy="318" r="12" fill="#fff" stroke="#edb61d" stroke-width="6"/>
+  <g transform="translate(316 331)"><path d="m8 37 18-30q7-12 20-13l92-4q14 0 24 11l34 37 24 7q12 4 12 16v16H0V56q0-14 8-19z" fill="#ffd34b" stroke="#d69b17" stroke-width="3"/><path d="m54 3 81-4q8 0 15 8l24 29H39z" fill="#a9d0dc" stroke="#fff0b4" stroke-width="4"/><path d="m94 1 1 35m40-37 14 37" stroke="#4d7182" stroke-width="3"/><path d="M1 45h228v18H1z" fill="#f2b61f"/><rect x="94" y="48" width="49" height="13" rx="3" fill="#fffdf4"/><text x="118" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="8" fill="#17324d">TAXI</text><circle cx="57" cy="82" r="19" fill="#172638"/><circle cx="57" cy="82" r="8" fill="#c5d3da"/><circle cx="180" cy="82" r="19" fill="#172638"/><circle cx="180" cy="82" r="8" fill="#c5d3da"/></g>
+</svg>

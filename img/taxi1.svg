@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Servicio de taxi</title>
+  <desc id="desc">Taxi amarillo listo para realizar un viaje urbano.</desc>
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#e6f1f5"/><stop offset="1" stop-color="#c7dce5"/></linearGradient><linearGradient id="yellow" x2="0" y2="1"><stop stop-color="#ffdc58"/><stop offset="1" stop-color="#f4b51e"/></linearGradient></defs>
+  <rect width="800" height="500" fill="url(#bg)"/><circle cx="658" cy="92" r="45" fill="#fff" opacity=".75"/>
+  <path d="M0 311h800v189H0z" fill="#d7e4e8"/><path d="M0 382h800v118H0z" fill="#25394c"/><path d="M32 433h135m123 0h135m123 0h135m123 0h62" stroke="#f6d369" stroke-width="7" stroke-linecap="round"/>
+  <path d="M68 302V152h89v150m15 0V106h111v196m18 0V175h98v127m17 0V130h108v172m18 0V177h114v125m18 0V118h91v184" fill="#adc5cf"/>
+  <g fill="#edf5f5"><path d="M91 176h17v25H91zm35 0h17v25h-17zm-35 49h17v25H91zm35 0h17v25h-17zM190 135h18v27h-18zm39 0h18v27h-18zm-39 50h18v27h-18zm39 0h18v27h-18zm-39 50h18v27h-18zm39 0h18v27h-18zM431 155h18v27h-18zm39 0h18v27h-18zm-39 50h18v27h-18zm39 0h18v27h-18zM604 200h19v26h-19zm42 0h19v26h-19zM714 143h18v27h-18zm35 0h18v27h-18z"/></g>
+  <ellipse cx="397" cy="359" rx="265" ry="30" fill="#142639" opacity=".2"/>
+  <g transform="translate(145 204)">
+    <path d="m35 104 38-68q14-24 43-27l203-9q30-1 50 20l76 84 50 14q21 6 24 29l2 35H18v-47q0-23 17-31z" fill="url(#yellow)" stroke="#d99d12" stroke-width="5"/>
+    <path d="m127 19 189-8q17-1 31 14l47 54H88z" fill="#a9cfdd" stroke="#fff0b4" stroke-width="7"/><path d="m221 14 2 65m93-67 25 67" stroke="#517184" stroke-width="6"/>
+    <path d="M19 117h500v43H19z" fill="#f3b51c"/><rect x="219" y="126" width="100" height="26" rx="5" fill="#fffdf4"/><text x="269" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="16" fill="#17324d">APP TAXI</text>
+    <path d="M187 2q5-19 24-19h68q18 0 22 19l3 11-120 5z" fill="#ffd54a" stroke="#d99d12" stroke-width="4"/><rect x="218" y="-13" width="50" height="20" rx="5" fill="#fff0a8"/>
+    <circle cx="127" cy="188" r="40" fill="#172638"/><circle cx="127" cy="188" r="19" fill="#c5d3da"/><circle cx="406" cy="188" r="40" fill="#172638"/><circle cx="406" cy="188" r="19" fill="#c5d3da"/>
+  </g>
+</svg>
